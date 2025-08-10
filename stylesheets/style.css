@@ -1,0 +1,106 @@
+BODY 
+{
+  margin : 0;
+  padding : 0;
+  text-color: black;
+  font-family: Verdana, Arial;
+  text-align: left;
+  background: white;
+}
+
+TT
+{
+  color: #07077f;
+  font-size: 10pt;
+  font-size: bold;
+  font-family: Verdana, Arial;
+}
+
+TR, TD, TABLE {
+  font-size: 10pt;
+  vertical-align: top;
+  align: center;
+  font-family: Verdana, Arial;
+}
+TH {
+  color : black;
+  background : 1A419D;
+}
+
+a:link {color: #0c0b84;}
+a:visited {color: #0c0b84;}
+a:hover {color: #ffbf01;}
+
+#leftnavigation {
+  position : absolute;
+  left : 0;
+  width : 150px;
+  margin-left : 10px;
+  margin-top : 20px;
+  color : #000000;
+  padding : 3px;
+}
+#rightnavigation {
+  position : absolute;
+  margin-left : 10px;
+  margin-top : 20px;
+  left : 85%;
+  top : 20px;
+  width : 140px;
+  padding-left : 10px;
+  z-index : 3;
+  color : #000000;
+  padding : 3px;
+}
+#content {
+  top : 0px;
+  margin : 0px 25% 0 165px;
+  padding : 3px;
+  color : #000000;
+}
+#content h1, #content h2 {
+  color : #cc0000;
+}
+.navbar,
+a.navbar:active,
+a.navbar:visited,
+a.navbar:link {
+  font: Verdana, Arial;
+  color: Black;
+  width: 124;
+  height: 15;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+a.navbar:hover {
+  font: Verdana, Arial;
+  color: orange;
+  width: 124;
+  height: 15;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+}
+tr.navbar_row {
+  width: 124;
+  background-image: url("../icons/button.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+td.papers {
+  width: 70;
+  text-align: center;
+}
+
+H4 {
+  font: 10pt Verdana, Arial;
+  line-height: 14pt;
+  color: 1A419D;
+  background: lightgrey;
+  font-weight: bold;
+}
+LI {
+  line-height: 14pt;
+}
